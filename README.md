@@ -1,5 +1,7 @@
 # -Shamir-s-Secret-Sharing-algorithm
 c++ code for genertating  Shamir's Secret Sharing algorithm
+
+
 CASE 1:
 https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case1.cpp
 **1. Problem Context:**
@@ -38,12 +40,37 @@ Base Conversion: The code supports decoding y values from various numerical base
 Polynomial Rebuilding: Uses an efficient method for polynomial reconstruction using Lagrange's interpolation formula.
 Error Handling: The code handles potential variations in the input base and properly decodes it to perform computations.
 
-6.OUTPUT:
+**6:INPUT PROVIDED TEST CASE:**
+{
+    "keys": {
+        "n": 4,
+        "k": 3
+    },
+    "1": {
+        "base": "10",
+        "value": "4"
+    },
+    "2": {
+        "base": "2",
+        "value": "111"
+    },
+    "3": {
+        "base": "10",
+        "value": "12"
+    },
+    "6": {
+        "base": "4",
+        "value": "213"
+    }
+}
+
+
+**7.OUTPUT:**
 ![image](https://github.com/user-attachments/assets/e7d7b141-54cc-4175-a130-3b2ca7dba979)
 
 
 
-CASE2:
+**CASE2:**
 https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case2.cpp
 
 
@@ -76,10 +103,54 @@ Lagrange Interpolation: Efficiently reconstructs the polynomial using the given 
 Large Number Handling: Uses long long for dealing with large values of y (important for cryptographic applications).
 **7. Code Efficiency**
 Time Complexity: Lagrange interpolation has a complexity of O(k²) due to the nested loops required for computing the basis polynomials.
-The code works efficiently for a moderate number of points k, which is typical in secret sharing schemes
+The code works efficiently for a moderate number of points k, which is typical in secret sharing schemes.
+
+**8.INPUT TEST CASE PROVIDED:**
+{
+    "keys": {
+        "n": 9,
+        "k": 6
+    },
+    "1": {
+        "base": "10",
+        "value": "28735619723837"
+    },
+    "2": {
+        "base": "16",
+        "value": "1A228867F0CA"
+    },
+    "3": {
+        "base": "12",
+        "value": "32811A4AA0B7B"
+    },
+    "4": {
+        "base": "11",
+        "value": "917978721331A"
+    },
+    "5": {
+        "base": "16",
+        "value": "1A22886782E1"
+    },
+    "6": {
+        "base": "10",
+        "value": "28735619654702"
+    },
+    "7": {
+        "base": "14",
+        "value": "71AB5070CC4B"
+    },
+    "8": {
+        "base": "9",
+        "value": "122662581541670"
+    },
+    "9": {
+        "base": "8",
+        "value": "642121030037605"
+    }
+}
 
 
-**8.OUTPUT:**
+**9.OUTPUT:**
 ![image](https://github.com/user-attachments/assets/3b8b1a07-df59-46c5-8db0-9c8abd02b2ab)
 
 

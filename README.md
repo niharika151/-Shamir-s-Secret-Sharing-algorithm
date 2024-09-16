@@ -1,7 +1,7 @@
 # -Shamir-s-Secret-Sharing-algorithm
 c++ code for genertating  Shamir's Secret Sharing algorithm
 CASE 1:
-![image](https://github.com/user-attachments/assets/2593b013-315a-48f5-90b6-c4e98087ec7d)
+https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case1.cpp
 **1. Problem Context:**
 The code solves a problem using Lagrange Interpolation to reconstruct a polynomial from given points (x, y) and find the constant term c.
 The input data contains values encoded in various numerical bases, which need to be converted to base-10 integers before applying interpolation.
@@ -44,6 +44,9 @@ Error Handling: The code handles potential variations in the input base and prop
 
 
 CASE2:
+https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case2.cpp
+
+
 **1. Problem Context**
 The problem involves reconstructing a polynomial from given (x, y) points using Lagrange Interpolation to find the constant term c, which is the secret in a Shamir's Secret Sharing context.
 The input consists of points encoded in various number bases, requiring conversion before interpolation.
@@ -73,7 +76,9 @@ Lagrange Interpolation: Efficiently reconstructs the polynomial using the given 
 Large Number Handling: Uses long long for dealing with large values of y (important for cryptographic applications).
 **7. Code Efficiency**
 Time Complexity: Lagrange interpolation has a complexity of O(k²) due to the nested loops required for computing the basis polynomials.
-The code works efficiently for a moderate number of points k, which is typical in secret sharing schemes.
+The code works efficiently for a moderate number of points k, which is typical in secret sharing schemes
+
+
 **8.OUTPUT:**
 ![image](https://github.com/user-attachments/assets/3b8b1a07-df59-46c5-8db0-9c8abd02b2ab)
 

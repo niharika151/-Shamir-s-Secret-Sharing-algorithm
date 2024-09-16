@@ -4,6 +4,8 @@ c++ code for genertating  Shamir's Secret Sharing algorithm
 
 CASE 1:
 https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case1.cpp
+
+
 **1. Problem Context:**
 The code solves a problem using Lagrange Interpolation to reconstruct a polynomial from given points (x, y) and find the constant term c.
 The input data contains values encoded in various numerical bases, which need to be converted to base-10 integers before applying interpolation.

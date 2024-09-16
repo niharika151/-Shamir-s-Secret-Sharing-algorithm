@@ -35,10 +35,14 @@ Finds the constant term c by evaluating the polynomial at x = 0.
 Step 4: Output
 
 The constant term c is printed as the final result, which represents the hidden secret in the polynomial.
+
+
 **4. Lagrange Interpolation Key Points:**
 Purpose: Used to reconstruct a polynomial of degree k-1 based on k points.
 Efficiency: Interpolation operates in O(k²) time complexity due to the double loop structure.
 Output: The constant term c is computed by evaluating the polynomial at x = 0.
+
+
 **5. Additional Features:**
 Base Conversion: The code supports decoding y values from various numerical bases.
 Polynomial Rebuilding: Uses an efficient method for polynomial reconstruction using Lagrange's interpolation formula.
@@ -69,12 +73,14 @@ Error Handling: The code handles potential variations in the input base and prop
 }
 
 
-**7.OUTPUT:**
+**7.OUTPUT IMAGE:**
 ![image](https://github.com/user-attachments/assets/e7d7b141-54cc-4175-a130-3b2ca7dba979)
 
 
 
-**CASE2:**
+**2.****CASE2:**
+
+**CODE:**
 https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case2.cpp
 
 

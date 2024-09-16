@@ -3,6 +3,7 @@ c++ code for genertating  Shamir's Secret Sharing algorithm
 
 
 **CASE 1:
+
 CODE:**
 https://github.com/niharika151/-Shamir-s-Secret-Sharing-algorithm/blob/main/Shamir's_Secret_case1.cpp
 
